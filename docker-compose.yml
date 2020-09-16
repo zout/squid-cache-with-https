@@ -2,7 +2,8 @@ version: "3.8"
 
 services:
   proxy:
-    build: .
+    # build: .
+    image: zout84/squid-cache-with-https:latest
     volumes:
       - './conf:/usr/local/squid/etc'
     ports:
