@@ -1,0 +1,3 @@
+.idea
+conf/ssl_cert/*.der
+conf/ssl_cert/*.pem

@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  proxy:
+    build: .
+    volumes:
+      - './conf:/usr/local/squid/etc'
+    ports:
+      - '3128:3128'
