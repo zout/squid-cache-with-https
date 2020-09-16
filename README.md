@@ -12,7 +12,7 @@ Open the OpenSSL config:
 
     $ nano /etc/ssl/openssl.cnf
     
-When you're in, add under the `\[ v3_ca \]` section the following: 
+When you're in, add under the `[ v3_ca ]` section the following: 
 
     [ v3_ca ]
     keyUsage = cRLSign, keyCertSign
